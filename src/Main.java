@@ -1,4 +1,4 @@
-import prototype_pattern.example.PrototypePatternExample;
+import creational_design_patterns.prototype_pattern.example.PrototypePatternExample;
 
 public class Main {
     public static void main(String[] args) {
