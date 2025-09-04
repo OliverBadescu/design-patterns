@@ -1,6 +1,6 @@
 package structural_design_patterns.composite_pattern.example;
 
-public abstract class FileSystemComponent {
+public abstract class  FileSystemComponent {
     protected String name;
     
     public FileSystemComponent(String name) {
