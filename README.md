@@ -84,10 +84,15 @@ Passes requests along a chain of handlers, where each handler decides either to 
 
 **Example**: Support ticket system where different support levels handle tickets based on priority.
 
+### 2. [Command Pattern](src/behavioral_design_patterns/command_pattern/README.md)
+Turns requests into stand-alone objects containing all information about the request, allowing parameterization, queuing, and undo operations.
+
+**Example**: Smart home automation system with remote control that can execute, undo, and group commands into macros.
+
 
 ## Pattern Categories
 
 Currently implemented:
 - ✅ **Creational Patterns** (5/5 common patterns)
 - ✅ **Structural Patterns** (7/7 common patterns)
-- 🚧 **Behavioral Patterns** (1/11 common patterns)
+- 🚧 **Behavioral Patterns** (2/11 common patterns)
