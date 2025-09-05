@@ -36,10 +36,49 @@ Ensures a class has only one instance and provides global access to it. Commonly
 
 **Example**: Database connection manager that maintains a single connection instance.
 
+## Structural Design Patterns
+
+Structural patterns deal with object composition, creating relationships between objects to form larger structures.
+
+### 1. [Adapter Pattern](src/structural_design_patterns/adapter_pattern/README.md)
+Allows incompatible interfaces to work together by creating a wrapper that converts one interface to another.
+
+**Example**: Audio player system that can play different media formats through adapters.
+
+### 2. [Bridge Pattern](src/structural_design_patterns/bridge_pattern/README.md)
+Separates abstraction from implementation, allowing both to vary independently.
+
+**Example**: Shape rendering system with different renderers (Vector, Raster) for various shapes.
+
+### 3. [Composite Pattern](src/structural_design_patterns/composite_pattern/README.md)
+Composes objects into tree structures to represent part-whole hierarchies, treating individual and composite objects uniformly.
+
+**Example**: File system hierarchy with files and directories.
+
+### 4. [Decorator Pattern](src/structural_design_patterns/decorator_pattern/README.md)
+Dynamically adds new functionality to objects without altering their structure by wrapping them in decorator objects.
+
+**Example**: Coffee ordering system where you can add various ingredients to customize your coffee.
+
+### 5. [Facade Pattern](src/structural_design_patterns/facade_pattern/README.md)
+Provides a simplified interface to a complex subsystem, making it easier to use.
+
+**Example**: Computer startup system that coordinates CPU, memory, graphics card, and hard drive.
+
+### 6. [Flyweight Pattern](src/structural_design_patterns/flyweight_pattern/README.md)
+Minimizes memory usage by sharing efficiently common data among multiple objects.
+
+**Example**: Forest rendering system that shares tree type data among many tree instances.
+
+### 7. [Proxy Pattern](src/structural_design_patterns/proxy_pattern/README.md)
+Provides a placeholder or surrogate for another object to control access to it.
+
+**Example**: Image loading system with lazy loading and caching functionality.
+
 
 ## Pattern Categories
 
 Currently implemented:
 - ✅ **Creational Patterns** (5/5 common patterns)
-- 🚧 **Structural Patterns** (Coming soon)
+- ✅ **Structural Patterns** (7/7 common patterns)
 - 🚧 **Behavioral Patterns** (Coming soon)
