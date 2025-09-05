@@ -75,10 +75,19 @@ Provides a placeholder or surrogate for another object to control access to it.
 
 **Example**: Image loading system with lazy loading and caching functionality.
 
+## Behavioral Design Patterns
+
+Behavioral patterns focus on communication between objects and the assignment of responsibilities between objects.
+
+### 1. [Chain of Responsibility Pattern](src/behavioral_design_patterns/chain_of_responsibility_pattern/README.md)
+Passes requests along a chain of handlers, where each handler decides either to process the request or pass it to the next handler.
+
+**Example**: Support ticket system where different support levels handle tickets based on priority.
+
 
 ## Pattern Categories
 
 Currently implemented:
 - ✅ **Creational Patterns** (5/5 common patterns)
 - ✅ **Structural Patterns** (7/7 common patterns)
-- 🚧 **Behavioral Patterns** (Coming soon)
+- 🚧 **Behavioral Patterns** (1/11 common patterns)
