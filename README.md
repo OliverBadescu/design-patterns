@@ -89,10 +89,30 @@ Turns requests into stand-alone objects containing all information about the req
 
 **Example**: Smart home automation system with remote control that can execute, undo, and group commands into macros.
 
+### 3. [Iterator Pattern](src/behavioral_design_patterns/iterator_pattern/README.md)
+Provides a way to access elements of a collection sequentially without exposing its underlying representation.
+
+**Example**: Library management system with different iterators for browsing all books, books by genre, or books by author.
+
+### 4. [Mediator Pattern](src/behavioral_design_patterns/mediator_pattern/README.md)
+Defines how objects interact with each other without having direct references, reducing coupling by centralizing communication through a mediator.
+
+**Example**: Chat room application where users communicate through the chat room mediator without knowing about each other directly.
+
+### 5. [Memento Pattern](src/behavioral_design_patterns/memento_pattern/README.md)
+Provides the ability to restore an object to its previous state without violating encapsulation, commonly used for undo/redo functionality.
+
+**Example**: Text editor with comprehensive undo/redo functionality that preserves both content and cursor position.
+
+### 6. [Observer Pattern](src/behavioral_design_patterns/observer_pattern/README.md)
+Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
+**Example**: Weather monitoring system where multiple displays automatically update when weather conditions change.
+
 
 ## Pattern Categories
 
 Currently implemented:
 - ✅ **Creational Patterns** (5/5 common patterns)
 - ✅ **Structural Patterns** (7/7 common patterns)
-- 🚧 **Behavioral Patterns** (2/11 common patterns)
+- 🚧 **Behavioral Patterns** (6/11 common patterns)
