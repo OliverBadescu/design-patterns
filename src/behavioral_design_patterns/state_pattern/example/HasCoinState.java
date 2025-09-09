@@ -4,24 +4,24 @@ public class HasCoinState implements State {
     
     @Override
     public void insertCoin(VendingMachine vendingMachine) {
-        System.out.println("❌ Coin already inserted. Please select a product or eject the current coin.");
+        System.out.println("Coin already inserted. Please select a product or eject the current coin.");
     }
     
     @Override
     public void ejectCoin(VendingMachine vendingMachine) {
-        System.out.println("💰 Coin ejected! Thank you.");
+        System.out.println("Coin ejected! Thank you.");
         vendingMachine.setState(vendingMachine.getNoCoinState());
     }
     
     @Override
     public void selectProduct(VendingMachine vendingMachine) {
-        System.out.println("✅ Product selected: " + vendingMachine.getSelectedProduct());
-        System.out.println("💳 Processing payment...");
+        System.out.println("Product selected: " + vendingMachine.getSelectedProduct());
+        System.out.println("Processing payment...");
         vendingMachine.setState(vendingMachine.getSoldState());
     }
     
     @Override
     public void dispenseProduct(VendingMachine vendingMachine) {
-        System.out.println("❌ Please select a product first.");
+        System.out.println("Please select a product first.");
     }
 }

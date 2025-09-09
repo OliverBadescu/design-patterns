@@ -58,11 +58,11 @@ public class StatePatternExample {
         newMachine.dispenseProduct();
         
         System.out.println("\n--- Demonstrating State Pattern Benefits ---");
-        System.out.println("✅ Clean State Management: Each state handles its own behavior");
-        System.out.println("✅ No Complex Conditionals: Behavior is encapsulated in state classes");
-        System.out.println("✅ Easy to Extend: New states can be added without modifying existing code");
-        System.out.println("✅ State Transitions: Clear and controlled state changes");
-        System.out.println("✅ Polymorphism: Same interface, different implementations per state");
+        System.out.println("Clean State Management: Each state handles its own behavior");
+        System.out.println("No Complex Conditionals: Behavior is encapsulated in state classes");
+        System.out.println("Easy to Extend: New states can be added without modifying existing code");
+        System.out.println("State Transitions: Clear and controlled state changes");
+        System.out.println("Polymorphism: Same interface, different implementations per state");
         
         System.out.println("\n--- Final Machine States ---");
         System.out.println("First machine state: " + vendingMachine.getStateName());
