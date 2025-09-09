@@ -109,10 +109,20 @@ Defines a one-to-many dependency between objects so that when one object changes
 
 **Example**: Weather monitoring system where multiple displays automatically update when weather conditions change.
 
+### 7. [State Pattern](src/behavioral_design_patterns/state_pattern/README.md)
+Allows an object to alter its behavior when its internal state changes, appearing to change its class. Encapsulates state-specific behavior into separate classes.
+
+**Example**: Vending machine that changes behavior based on current state (No Coin, Has Coin, Sold, Out of Stock).
+
+### 8. [Strategy Pattern](src/behavioral_design_patterns/strategy_pattern/README.md)
+Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+
+**Example**: E-commerce shopping cart system that supports multiple payment methods (Credit Card, PayPal, Cryptocurrency, Bank Transfer).
+
 
 ## Pattern Categories
 
 Currently implemented:
 - ✅ **Creational Patterns** (5/5 common patterns)
 - ✅ **Structural Patterns** (7/7 common patterns)
-- 🚧 **Behavioral Patterns** (6/11 common patterns)
+- 🚧 **Behavioral Patterns** (8/11 common patterns)
