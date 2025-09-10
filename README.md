@@ -119,10 +119,12 @@ Defines a family of algorithms, encapsulates each one, and makes them interchang
 
 **Example**: E-commerce shopping cart system that supports multiple payment methods (Credit Card, PayPal, Cryptocurrency, Bank Transfer).
 
+### 9. [Template Method Pattern](src/behavioral_design_patterns/template_pattern/README.md)
+Defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
 
-## Pattern Categories
+**Example**: Data processing system that handles different file formats (CSV, XML, JSON) using the same workflow (load → validate → transform → save → cleanup).
 
-Currently implemented:
-- ✅ **Creational Patterns** (5/5 common patterns)
-- ✅ **Structural Patterns** (7/7 common patterns)
-- 🚧 **Behavioral Patterns** (8/11 common patterns)
+### 10. [Visitor Pattern](src/behavioral_design_patterns/visitor_pattern/README.md)
+Allows you to define new operations on a set of objects without changing the classes of the objects themselves. Separates algorithms from the object structure they operate on.
+
+**Example**: Shape processing system that performs different operations (drawing, area calculation, perimeter calculation) on various shapes without modifying the shape classes.
